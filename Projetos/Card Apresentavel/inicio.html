@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Card Apresentavel</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="assets/images.png" id="perfil">
+            <label for="input-img">Definir Perfil</label>
+            <input type="file" accept="image/png, image,jpg" id="input-img">
+        </div>
+
+        <div class="principal">
+            <div class="apresentacao">
+                <span id="profissao" onclick="definirProfissao()">Profissao</span>
+                <span id="nome">Nome</span>
+                <span id="idade">Idade</span>
+            </div>
+    
+            <div class="descricao">
+                <span id="tecnologias">Tecnologias que possui conhecimento</span>
+                <span>Competências</span>
+                <span>Cursos</span>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+    
+</body>
+</html>

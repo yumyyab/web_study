@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+/*  */
+
+.card{
+    margin: 3%;
+}
+
+.card > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card > label{
+    display: block;
+    width: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: #881515;
+    cursor: pointer;
+}
+
+.card > input {
+    display: none;
+}
+
+.apresentacao {
+    width: 350px;
+    background: #aaa8a8;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.apresentacao > span {
+    margin: 15px;
+    display: block;
+}
+
+.descricao {
+    width: 350px;
+    background: #aaa8a8;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;}
+
+.descricao > span {
+    margin: 15px;
+    display: block;
+}
+
+/* .descricao #tecnologias{
+
+} */
